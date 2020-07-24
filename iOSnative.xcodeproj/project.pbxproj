@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "SlideInTransition" */;
+			buildConfigurationList = 20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "iOSnative" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -300,7 +300,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -361,7 +361,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -388,15 +388,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
 				INFOPLIST_FILE = SlideInTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.JulsGra.SlideMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula;
 				PRODUCT_NAME = SlideInTransitionForPaula_Engelb;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -406,15 +409,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
 				INFOPLIST_FILE = SlideInTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.JulsGra.SlideMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula;
 				PRODUCT_NAME = SlideInTransitionForPaula_Engelb;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -423,6 +429,8 @@
 		DF47E4C124B4E2F70024477C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
 				INFOPLIST_FILE = SlideInTransitionForPaula_EngelbUITests/Info.plist;
@@ -434,6 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paula.SlideInTransitionForPaula-EngelbUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SlideInTransition;
@@ -443,6 +452,8 @@
 		DF47E4C224B4E2F70024477C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
 				INFOPLIST_FILE = SlideInTransitionForPaula_EngelbUITests/Info.plist;
@@ -454,6 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paula.SlideInTransitionForPaula-EngelbUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SlideInTransition;
@@ -463,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "SlideInTransition" */ = {
+		20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "iOSnative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C8FBEA21EAC6D300850BB7 /* Debug */,

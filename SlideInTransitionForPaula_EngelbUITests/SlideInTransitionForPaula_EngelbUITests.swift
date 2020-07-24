@@ -30,22 +30,21 @@ class SlideInTransitionForPaula_EngelbUITests: XCTestCase {
                       
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let nrSwipes = 8
+      //  let nrSwipes = 8
         
         measure(metrics: [XCTClockMetric(), // to measure time
                                   XCTCPUMetric(), // to measure cpu cycles
                                   XCTStorageMetric(), // to measure storage consuming
                                   XCTMemoryMetric()]) { // to measeure RAM consuming
         
-            for runde in 0 ..< nrSwipes {
+          //  for runde in 0 ..< nrSwipes {
                 
                 app.swipeRight()
-                //sleep(4)
+                sleep(4)
                 app.tap()
-                //sleep(2)
-                print("Runde: \(runde)")
-            }
-            
+                sleep(4)
+                //print("Runde: \(runde)")
+           // }
         }
     }
     
@@ -63,12 +62,16 @@ class SlideInTransitionForPaula_EngelbUITests: XCTestCase {
                                   XCTMemoryMetric()]) { // to measeure RAM consuming
         
        for runde in 0 ..< nrSwitches {
+        print("-----------------------------Runde: \(runde)----------------------------------")
+            print("Sleep: 5 Sekunden bevor tap NEXT")
+            sleep(5)
             app.buttons["next"].tap()
-            sleep(2)
+            print("Sleep: 5 Sekunden bevor tap PREVIOUS")
+            sleep(5)
             app.buttons["previous"].tap()
-            sleep(2)
-            print("Runde: \(runde)")
-                                    }
+            
+            
+            }
         }
     }
     
@@ -78,21 +81,20 @@ class SlideInTransitionForPaula_EngelbUITests: XCTestCase {
         
         app.navigationBars["Hier dein Title"].buttons["pencil"].tap()
         app.navigationBars.buttons["pencil"].tap()
-        
-        let nrSwipes = 8
+        print("Sleep: 5 Sekunden")
+        sleep(5)
+
+        let nrSwipes = 6
          
-         measure(metrics: [XCTClockMetric(), // to measure time
-                                   XCTCPUMetric(), // to measure cpu cycles
-                                   XCTStorageMetric(), // to measure storage consuming
-                                   XCTMemoryMetric()]) { // to measeure RAM consuming
-         
-        for runde in 0 ..< nrSwipes {
+
+        for runde in 1 ..< nrSwipes {
+            print("--------------------------Runde: \(runde)---------------------------------")
             app.swipeUp()
-            sleep(2)
-            print("Runde: \(runde)")
+            sleep(3)
+            print("Schlafe nach einem Swipe 3 Sekunden")
+            
                                     }
          }
-    }
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
