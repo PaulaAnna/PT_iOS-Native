@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20C8FBD921EAC6D200850BB7"
-               BuildableName = "SlideInTransitionForPaula_Engelb.app"
+               BuildableName = "SlideInTransition.app"
                BlueprintName = "SlideInTransition"
-               ReferencedContainer = "container:iOSnative.xcodeproj">
+               ReferencedContainer = "container:iOSnativeF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF47E4B924B4E2F60024477C"
-               BuildableName = "SlideInTransitionForPaula_EngelbUITests.xctest"
-               BlueprintName = "SlideInTransitionForPaula_EngelbUITests"
-               ReferencedContainer = "container:iOSnative.xcodeproj">
+               BlueprintIdentifier = "DF1F153824CB006600E7D648"
+               BuildableName = "SlideInTransitionUITests.xctest"
+               BlueprintName = "SlideInTransitionUITests"
+               ReferencedContainer = "container:iOSnativeF.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C8FBD921EAC6D200850BB7"
-            BuildableName = "SlideInTransitionForPaula_Engelb.app"
+            BuildableName = "SlideInTransition.app"
             BlueprintName = "SlideInTransition"
-            ReferencedContainer = "container:iOSnative.xcodeproj">
+            ReferencedContainer = "container:iOSnativeF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C8FBD921EAC6D200850BB7"
-            BuildableName = "SlideInTransitionForPaula_Engelb.app"
+            BuildableName = "SlideInTransition.app"
             BlueprintName = "SlideInTransition"
-            ReferencedContainer = "container:iOSnative.xcodeproj">
+            ReferencedContainer = "container:iOSnativeF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -19,10 +19,17 @@
 		4D83E93F24A115F900464F99 /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83E93D24A115F900464F99 /* NumberTableViewCell.swift */; };
 		4D83E94024A115F900464F99 /* NumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D83E93E24A115F900464F99 /* NumberTableViewCell.xib */; };
 		4D83E94224A1165C00464F99 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83E94124A1165C00464F99 /* ListViewController.swift */; };
-		DF47E4BD24B4E2F70024477C /* SlideInTransitionForPaula_EngelbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47E4BC24B4E2F70024477C /* SlideInTransitionForPaula_EngelbUITests.swift */; };
+		DF1F153C24CB006600E7D648 /* SlideInTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1F153B24CB006600E7D648 /* SlideInTransitionUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DF1F153E24CB006600E7D648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C8FBD221EAC6D200850BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C8FBD921EAC6D200850BB7;
+			remoteInfo = SlideInTransition;
+		};
 		DF47E4BF24B4E2F70024477C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 20C8FBD221EAC6D200850BB7 /* Project object */;
@@ -34,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		203835C621EC2F4800D8F86F /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
-		20C8FBDA21EAC6D200850BB7 /* SlideInTransitionForPaula_Engelb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideInTransitionForPaula_Engelb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C8FBDA21EAC6D200850BB7 /* SlideInTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideInTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C8FBDD21EAC6D200850BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20C8FBDF21EAC6D200850BB7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		20C8FBE221EAC6D200850BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,13 +54,21 @@
 		4D83E93D24A115F900464F99 /* NumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTableViewCell.swift; sourceTree = "<group>"; };
 		4D83E93E24A115F900464F99 /* NumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberTableViewCell.xib; sourceTree = "<group>"; };
 		4D83E94124A1165C00464F99 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DF1F153924CB006600E7D648 /* SlideInTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideInTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1F153B24CB006600E7D648 /* SlideInTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransitionUITests.swift; sourceTree = "<group>"; };
+		DF1F153D24CB006600E7D648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF47E4BA24B4E2F60024477C /* SlideInTransitionForPaula_EngelbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideInTransitionForPaula_EngelbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF47E4BC24B4E2F70024477C /* SlideInTransitionForPaula_EngelbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransitionForPaula_EngelbUITests.swift; sourceTree = "<group>"; };
-		DF47E4BE24B4E2F70024477C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		20C8FBD721EAC6D200850BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F153624CB006600E7D648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,8 +88,8 @@
 		20C8FBD121EAC6D200850BB7 = {
 			isa = PBXGroup;
 			children = (
-				20C8FBDC21EAC6D200850BB7 /* SlideInTransition */,
-				DF47E4BB24B4E2F70024477C /* SlideInTransitionForPaula_EngelbUITests */,
+				20C8FBDC21EAC6D200850BB7 /* iOSnative */,
+				DF1F153A24CB006600E7D648 /* SlideInTransitionUITests */,
 				20C8FBDB21EAC6D200850BB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,13 +97,14 @@
 		20C8FBDB21EAC6D200850BB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20C8FBDA21EAC6D200850BB7 /* SlideInTransitionForPaula_Engelb.app */,
+				20C8FBDA21EAC6D200850BB7 /* SlideInTransition.app */,
 				DF47E4BA24B4E2F60024477C /* SlideInTransitionForPaula_EngelbUITests.xctest */,
+				DF1F153924CB006600E7D648 /* SlideInTransitionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20C8FBDC21EAC6D200850BB7 /* SlideInTransition */ = {
+		20C8FBDC21EAC6D200850BB7 /* iOSnative */ = {
 			isa = PBXGroup;
 			children = (
 				20C8FBDD21EAC6D200850BB7 /* AppDelegate.swift */,
@@ -105,16 +121,16 @@
 				4D83E93924A1144B00464F99 /* AktivityOneViewController.swift */,
 				4D83E93B24A1146500464F99 /* AktivityTwoViewController.swift */,
 			);
-			path = SlideInTransition;
+			path = iOSnative;
 			sourceTree = "<group>";
 		};
-		DF47E4BB24B4E2F70024477C /* SlideInTransitionForPaula_EngelbUITests */ = {
+		DF1F153A24CB006600E7D648 /* SlideInTransitionUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DF47E4BC24B4E2F70024477C /* SlideInTransitionForPaula_EngelbUITests.swift */,
-				DF47E4BE24B4E2F70024477C /* Info.plist */,
+				DF1F153B24CB006600E7D648 /* SlideInTransitionUITests.swift */,
+				DF1F153D24CB006600E7D648 /* Info.plist */,
 			);
-			path = SlideInTransitionForPaula_EngelbUITests;
+			path = SlideInTransitionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +150,26 @@
 			);
 			name = SlideInTransition;
 			productName = SlideInTransition;
-			productReference = 20C8FBDA21EAC6D200850BB7 /* SlideInTransitionForPaula_Engelb.app */;
+			productReference = 20C8FBDA21EAC6D200850BB7 /* SlideInTransition.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DF1F153824CB006600E7D648 /* SlideInTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1F154024CB006600E7D648 /* Build configuration list for PBXNativeTarget "SlideInTransitionUITests" */;
+			buildPhases = (
+				DF1F153524CB006600E7D648 /* Sources */,
+				DF1F153624CB006600E7D648 /* Frameworks */,
+				DF1F153724CB006600E7D648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1F153F24CB006600E7D648 /* PBXTargetDependency */,
+			);
+			name = SlideInTransitionUITests;
+			productName = SlideInTransitionUITests;
+			productReference = DF1F153924CB006600E7D648 /* SlideInTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		DF47E4B924B4E2F60024477C /* SlideInTransitionForPaula_EngelbUITests */ = {
 			isa = PBXNativeTarget;
@@ -168,13 +202,17 @@
 					20C8FBD921EAC6D200850BB7 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					DF1F153824CB006600E7D648 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 20C8FBD921EAC6D200850BB7;
+					};
 					DF47E4B924B4E2F60024477C = {
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = 20C8FBD921EAC6D200850BB7;
 					};
 				};
 			};
-			buildConfigurationList = 20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "iOSnative" */;
+			buildConfigurationList = 20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "iOSnativeF" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,6 +227,7 @@
 			targets = (
 				20C8FBD921EAC6D200850BB7 /* SlideInTransition */,
 				DF47E4B924B4E2F60024477C /* SlideInTransitionForPaula_EngelbUITests */,
+				DF1F153824CB006600E7D648 /* SlideInTransitionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +241,13 @@
 				20C8FBE821EAC6D300850BB7 /* LaunchScreen.storyboard in Resources */,
 				20C8FBE521EAC6D300850BB7 /* Assets.xcassets in Resources */,
 				20C8FBE321EAC6D200850BB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F153724CB006600E7D648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +276,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF1F153524CB006600E7D648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1F153C24CB006600E7D648 /* SlideInTransitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF47E4B624B4E2F60024477C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF47E4BD24B4E2F70024477C /* SlideInTransitionForPaula_EngelbUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DF1F153F24CB006600E7D648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C8FBD921EAC6D200850BB7 /* SlideInTransition */;
+			targetProxy = DF1F153E24CB006600E7D648 /* PBXContainerItemProxy */;
+		};
 		DF47E4C024B4E2F70024477C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 20C8FBD921EAC6D200850BB7 /* SlideInTransition */;
@@ -391,14 +449,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
-				INFOPLIST_FILE = SlideInTransition/Info.plist;
+				INFOPLIST_FILE = iOSnative/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paula;
-				PRODUCT_NAME = SlideInTransitionForPaula_Engelb;
+				PRODUCT_NAME = SlideInTransition;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -412,17 +470,61 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
-				INFOPLIST_FILE = SlideInTransition/Info.plist;
+				INFOPLIST_FILE = iOSnative/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paula;
-				PRODUCT_NAME = SlideInTransitionForPaula_Engelb;
+				PRODUCT_NAME = SlideInTransition;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF1F154124CB006600E7D648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWZFSH8K79;
+				INFOPLIST_FILE = SlideInTransitionUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.SlideInTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideInTransition;
+			};
+			name = Debug;
+		};
+		DF1F154224CB006600E7D648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWZFSH8K79;
+				INFOPLIST_FILE = SlideInTransitionUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.SlideInTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideInTransition;
 			};
 			name = Release;
 		};
@@ -433,14 +535,14 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
-				INFOPLIST_FILE = SlideInTransitionForPaula_EngelbUITests/Info.plist;
+				INFOPLIST_FILE = /Users/paulaengelberg/Desktop/iOS_letzteVer/iOSnative/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.paula.SlideInTransitionForPaula-EngelbUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.SlideInTransitionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -456,14 +558,14 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWZFSH8K79;
-				INFOPLIST_FILE = SlideInTransitionForPaula_EngelbUITests/Info.plist;
+				INFOPLIST_FILE = /Users/paulaengelberg/Desktop/iOS_letzteVer/iOSnative/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.paula.SlideInTransitionForPaula-EngelbUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.SlideInTransitionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -475,7 +577,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "iOSnative" */ = {
+		20C8FBD521EAC6D200850BB7 /* Build configuration list for PBXProject "iOSnativeF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C8FBEA21EAC6D300850BB7 /* Debug */,
@@ -489,6 +591,15 @@
 			buildConfigurations = (
 				20C8FBED21EAC6D300850BB7 /* Debug */,
 				20C8FBEE21EAC6D300850BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1F154024CB006600E7D648 /* Build configuration list for PBXNativeTarget "SlideInTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F154124CB006600E7D648 /* Debug */,
+				DF1F154224CB006600E7D648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
