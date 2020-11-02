@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hJR-ag-rGZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hJR-ag-rGZ">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="SlideInTransitionForPaula_Engelb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="SlideInTransition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" leftItemsSupplementBackButton="YES" id="KVi-td-9Ho">
                         <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="nFu-8s-Kim">
@@ -48,7 +49,7 @@
                                 </button>
                             </barButtonItem>
                             <barButtonItem style="plain" id="RKM-wQ-jH8">
-                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="o6A-Ed-xfm">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="o6A-Ed-xfm">
                                     <rect key="frame" x="269" y="7" width="92" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -73,7 +74,7 @@
         <!--Aktivity One View Controller-->
         <scene sceneID="dv8-aw-pgF">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="zId-34-F8s" customClass="AktivityOneViewController" customModule="SlideInTransitionForPaula_Engelb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="zId-34-F8s" customClass="AktivityOneViewController" customModule="SlideInTransition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fGw-tC-h9L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,7 +85,7 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Kx-6A-2wF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Kx-6A-2wF">
                                 <rect key="frame" x="172" y="490.66666666666674" width="70" height="50"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -118,7 +119,7 @@
                                                 </button>
                                             </barButtonItem>
                                             <barButtonItem style="plain" id="gu0-si-yhr">
-                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m0R-Vs-nXl">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="m0R-Vs-nXl">
                                                     <rect key="frame" x="269" y="7" width="92" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -133,6 +134,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Od-16-Aog"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="fe6-gb-OXH" firstAttribute="top" secondItem="4Od-16-Aog" secondAttribute="top" id="9lL-0f-yFd"/>
@@ -143,7 +145,6 @@
                             <constraint firstItem="9Kx-6A-2wF" firstAttribute="top" secondItem="VCr-hf-izZ" secondAttribute="bottom" constant="20" id="xSG-uo-LZA"/>
                             <constraint firstItem="VCr-hf-izZ" firstAttribute="centerX" secondItem="fGw-tC-h9L" secondAttribute="centerX" id="y03-KP-IfC"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="4Od-16-Aog"/>
                     </view>
                     <connections>
                         <outlet property="nextTC" destination="m0R-Vs-nXl" id="4PB-7T-gtc"/>
@@ -156,7 +157,7 @@
         <!--Aktivity Two View Controller-->
         <scene sceneID="FPd-Rh-NRE">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="8Ce-mU-xnc" customClass="AktivityTwoViewController" customModule="SlideInTransitionForPaula_Engelb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="8Ce-mU-xnc" customClass="AktivityTwoViewController" customModule="SlideInTransition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gfy-cz-owG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,7 +168,7 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8l-PD-ZYe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8l-PD-ZYe">
                                 <rect key="frame" x="167" y="491" width="80" height="50"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -203,7 +204,7 @@
                                                 </button>
                                             </barButtonItem>
                                             <barButtonItem style="plain" id="YjU-lU-ig9">
-                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ecy-Jj-KWa">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ecy-Jj-KWa">
                                                     <rect key="frame" x="269" y="7" width="92" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -219,7 +220,8 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="V2q-eG-roM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="iFl-2z-R4h" firstAttribute="centerX" secondItem="gfy-cz-owG" secondAttribute="centerX" id="1ki-fU-sfE"/>
                             <constraint firstItem="Y8l-PD-ZYe" firstAttribute="top" secondItem="SMB-tq-KC2" secondAttribute="bottom" constant="20" id="AHO-Dg-yKF"/>
@@ -229,7 +231,6 @@
                             <constraint firstItem="SMB-tq-KC2" firstAttribute="centerX" secondItem="gfy-cz-owG" secondAttribute="centerX" id="pCe-6B-ru3"/>
                             <constraint firstItem="iFl-2z-R4h" firstAttribute="top" secondItem="V2q-eG-roM" secondAttribute="top" id="uES-PJ-wQP"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="V2q-eG-roM"/>
                     </view>
                     <connections>
                         <outlet property="nextTC" destination="ecy-Jj-KWa" id="8Af-DJ-TRl"/>
@@ -242,7 +243,7 @@
         <!--List View Controller-->
         <scene sceneID="Wk0-h4-N5X">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="cWm-Lr-HP1" customClass="ListViewController" customModule="SlideInTransitionForPaula_Engelb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="cWm-Lr-HP1" customClass="ListViewController" customModule="SlideInTransition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KsT-LG-qmb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -278,7 +279,7 @@
                                                 </button>
                                             </barButtonItem>
                                             <barButtonItem style="plain" id="imp-Ax-cy2">
-                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="koW-BT-LcA">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="koW-BT-LcA">
                                                     <rect key="frame" x="269" y="7" width="92" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -293,6 +294,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="NLJ-60-1Nw"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="HSU-tG-Oeg" firstAttribute="top" secondItem="NLJ-60-1Nw" secondAttribute="top" constant="50" id="4AM-w0-DiV"/>
@@ -303,7 +305,6 @@
                             <constraint firstItem="HSU-tG-Oeg" firstAttribute="leading" secondItem="NLJ-60-1Nw" secondAttribute="leading" id="fuz-gB-Ubk"/>
                             <constraint firstItem="q6a-OA-UnY" firstAttribute="top" secondItem="NLJ-60-1Nw" secondAttribute="top" id="lR3-2S-dOi"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="NLJ-60-1Nw"/>
                     </view>
                     <navigationItem key="navigationItem" id="06M-HH-B9l"/>
                     <connections>
@@ -318,7 +319,7 @@
         <!--Menu View Controller-->
         <scene sceneID="lOm-dB-SsD">
             <objects>
-                <tableViewController storyboardIdentifier="MenuViewController" id="UyN-VI-dPA" customClass="MenuViewController" customModule="SlideInTransitionForPaula_Engelb" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MenuViewController" id="UyN-VI-dPA" customClass="MenuViewController" customModule="SlideInTransition" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="imi-vN-xN0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -348,7 +349,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="swV-kQ-w8u">
                                                     <rect key="frame" x="16" y="90" width="398" height="2"/>
-                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="kau-CH-cQR"/>
                                                     </constraints>
@@ -398,12 +399,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="v7A-kO-7ul"/>
+        <segue reference="JWO-xV-eK9"/>
         <segue reference="0fb-EB-mHV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="menu" width="24" height="24"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="profile" width="24" height="24"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

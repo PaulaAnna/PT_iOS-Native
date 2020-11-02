@@ -2,7 +2,6 @@
 //  AktivityTwoViewController.swift
 //  SlideInTransition
 //
-//  Created by Julius Grau on 22.06.20.
 //  Copyright © 2020 Gary Tokman. All rights reserved.
 //
 

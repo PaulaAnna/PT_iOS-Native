@@ -33,77 +33,56 @@ class SlideInTransitionUITests: XCTestCase {
     }
     
     func testOpenCloseDrawer() throws {
-           // UI tests must launch the application that they test.
-           let app = XCUIApplication()
-           app.launch()
-                         
-           // Use recording to get started writing UI tests.
-           // Use XCTAssert and related functions to verify your tests produce the correct results.
-         //  let nrSwipes = 8
-           
-           measure(metrics: [XCTClockMetric(), // to measure time
-                                     XCTCPUMetric(), // to measure cpu cycles
-                                     XCTStorageMetric(), // to measure storage consuming
-                                     XCTMemoryMetric()]) { // to measeure RAM consuming
-           
-             //  for runde in 0 ..< nrSwipes {
-                   
-                   app.swipeRight()
-                   sleep(4)
-                   app.tap()
-                   sleep(4)
-                   //print("Runde: \(runde)")
-              // }
-           }
-       }
-       
-       func testSwitchPages() throws {
-           let app = XCUIApplication()
-           app.launch()
-           
-           app.navigationBars["Hier dein Title"].buttons["pencil"].tap()
-           
-           let nrSwitches = 1
-           
-           measure(metrics: [XCTClockMetric(), // to measure time
-                                     XCTCPUMetric(), // to measure cpu cycles
-                                     XCTStorageMetric(), // to measure storage consuming
-                                     XCTMemoryMetric()]) { // to measeure RAM consuming
-           
-          for runde in 0 ..< nrSwitches {
-           print("-----------------------------Runde: \(runde)----------------------------------")
-               print("Sleep: 5 Sekunden bevor tap NEXT")
-               sleep(5)
-               app.buttons["next"].tap()
-               print("Sleep: 5 Sekunden bevor tap PREVIOUS")
-               sleep(5)
-               app.buttons["previous"].tap()
-               
-               
-               }
-           }
-       }
-       
-       func testSwipeList() throws{
-           let app = XCUIApplication()
-           app.launch()
-           
-           app.navigationBars["Hier dein Title"].buttons["pencil"].tap()
-           app.navigationBars.buttons["pencil"].tap()
-           print("Sleep: 5 Sekunden")
-           sleep(5)
-
-           let nrSwipes = 6
-            
-
-           for runde in 1 ..< nrSwipes {
-               print("--------------------------Runde: \(runde)---------------------------------")
-               app.swipeUp()
-               sleep(3)
-               print("Schlafe nach einem Swipe 3 Sekunden")
-               
-                                       }
+        
+        let app = XCUIApplication()
+        app.launch()
+        
+        let nrSwipes = 3
+        for i in 1 ..< nrSwipes {
+            if i == 1 {
+                sleep(3)
+                app.swipeRight()
+                sleep(3)
+                app.tap()
+                sleep(3)
+            } else {
+                app.swipeRight()
+                sleep(3)
+                app.tap()
+                sleep(3)
             }
+        }
+        sleep(3)
+    }
+       
+    func testSwitchPages() throws {
+        let app = XCUIApplication()
+        app.launch()
+        sleep(2)
+        app.navigationBars["Hier dein Title"].buttons["edit"].tap()
+      
+        sleep(3)
+        app.buttons["next"].tap()
+        sleep(4)
+        app.buttons["previous"].tap()
+        sleep(4)
+        app.buttons["next"].tap()
+        sleep(4)
+    }
+       
+    func testSwipeList() throws{
+        let app = XCUIApplication()
+        app.launch()
+           
+        app.navigationBars["Hier dein Title"].buttons["edit"].tap()
+        app.navigationBars.buttons["edit"].tap()
+        
+        app.swipeUp()
+        app.swipeUp()
+        app.swipeUp()
+    }
+    
+    
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
@@ -114,3 +93,9 @@ class SlideInTransitionUITests: XCTestCase {
         }
     }
 }
+
+//measure(metrics: [XCTClockMetric(), // to measure time
+//                        XCTCPUMetric(), // to measure cpu cycles
+//                      XCTStorageMetric(), // to measure storage consuming
+//                    XCTMemoryMetric()]) { // to measeure RAM consuming
+//}
